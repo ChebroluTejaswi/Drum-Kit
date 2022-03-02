@@ -22,7 +22,12 @@ document.addEventListener("keypress",function(event){
   makeSound(event.key);
   buttonAnimation(event.key);
   sequence.push(key);
-  document.getElementById("sequence").innerHTML=sequence.toString();
+  var seq="";
+    for(let j=0;j<sequence.length;j++)
+    {
+        seq=seq+" "+sequence[j];
+    }
+    document.getElementById("sequence").innerHTML=seq;
 });
 
 
