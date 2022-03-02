@@ -1,7 +1,7 @@
 body {
     text-align: center;
-    background-color: #283149;
-  }
+    background-image: url(images/background.svg);
+}
   
   h1 {
     font-size: 4rem;
@@ -9,12 +9,24 @@ body {
     font-family: "Arvo", cursive;
     text-shadow: 3px 0 #DA0463;
   }
+  p{
+      color:white;
+      font-family: cursive;
+      margin-bottom: 0;
+      font-size: 1.5em;
+      text-shadow: 3px 0 5px #233d84;
+      font-weight: bold;
+  }
   
   footer {
     color: #DBEDF3;
     font-family: sans-serif;
   }
+  .set {
+    margin: 5% auto 8% auto; 
+  }
   
+  /* Setting the background images for wach button */
   .w {
   background-image: url('images/tom1.png');
   }
@@ -42,11 +54,8 @@ body {
   .l {
   background-image: url('images/kick.png');
   }
-  
-  .set {
-    margin: 10% auto; /*10% is for top and bottom*/
-  }
-  
+
+
   .pressed {
     box-shadow: 0 3px 4px 0 #DBEDF3;
     opacity: 0.5;
@@ -55,7 +64,7 @@ body {
   .red {
     color: red;
   }
-  
+  /* button styling */
   .drum {
     outline: none;
     font-size: 5rem;
@@ -75,3 +84,15 @@ body {
     background-color: #fff;
   }
   
+  .btn{
+      background-color: #DBEDF3;
+      color:#233d84;
+      font-weight: bold;
+      font-family: 'Arvo',cursive;
+      border-radius: 5px;
+      padding:5px;
+      border: none;
+      box-shadow: 0 0 10px #2f4ea3;
+      font-size: 1em;
+      margin-top: 10px;
+  }
