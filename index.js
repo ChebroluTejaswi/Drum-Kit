@@ -21,13 +21,13 @@ for(var i=0;i<numberOfDrumButtons;i++)
 document.addEventListener("keypress",function(event){
   makeSound(event.key);
   buttonAnimation(event.key);
-  sequence.push(key);
+  sequence.push(event.key);
   var seq="";
-    for(let j=0;j<sequence.length;j++)
-    {
-        seq=seq+" "+sequence[j];
-    }
-    document.getElementById("sequence").innerHTML=seq;
+  for(let j=0;j<sequence.length;j++)
+  {
+    seq=seq+" "+sequence[j];
+  }
+  document.getElementById("sequence").innerHTML=seq;
 });
 
 
