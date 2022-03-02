@@ -87,7 +87,7 @@ body {
   .btn{
       background-color:#DA0463;
       color:white;
-      font-weight: bold;
+      font-weight: 500;
       font-family: 'Arvo',cursive;
       border-radius: 5px;
       padding:5px;
