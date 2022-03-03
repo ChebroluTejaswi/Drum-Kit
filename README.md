@@ -26,4 +26,4 @@ You can use this repository for further developing it and adding your work in it
 
 ## Contact 📞
 
-#### If you have any doubt feel free to email me or hit me up on [LinkedIn](https://www.linkedin.com/in/chebrolu-tejaswi/)
+If you have any doubt feel free to email me or hit me up on [LinkedIn](https://www.linkedin.com/in/chebrolu-tejaswi/)
