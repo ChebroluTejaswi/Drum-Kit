@@ -1,98 +1,105 @@
 body {
-    text-align: center;
-    background-image: url(images/background.svg);
+  text-align: center;
+  background-image: url(images/background.svg);
 }
-  
-  h1 {
-    font-size: 4rem;
-    color: #DBEDF3;
-    font-family: "Arvo", cursive;
-    text-shadow: 3px 0 #DA0463;
-  }
-  p{
-      color:#DA0463;
-      font-family: cursive;
-      margin-bottom: 0;
-      font-size: 1.5em;
-      text-shadow: 3px 0 5px #233d84;
-      font-weight: bold;
-  }
-  
-  footer {
-    color: #DBEDF3;
-    font-family: sans-serif;
-  }
-  .set {
-    margin: 5% auto 8% auto; 
-  }
-  
-  /* Setting the background images for wach button */
-  .w {
+
+h1 {
+  font-size: 6rem;
+  color: #DBEDF3;
+  /* font-family: "Arvo", cursive; */
+  font-family: 'Tangerine', cursive;
+  text-shadow: 3px 0 #DA0463;
+  margin-bottom: 0;
+}
+
+p {
+  color: #DA0463;
+  font-family: "Arvo", cursive;
+  margin-bottom: 0;
+  font-size: 1.5em;
+  text-shadow: 3px 0 5px #530e81;
+  font-weight: bold;
+}
+
+footer {
+  color: #DBEDF3;
+  font-family: sans-serif;
+}
+
+.set {
+  margin: 5% auto 8% auto;
+}
+
+/* Setting the background images for wach button */
+.w {
   background-image: url('images/tom1.png');
-  }
-  
-  .a {
+}
+
+.a {
   background-image: url('images/tom2.png');
-  }
-  
-  .s {
+}
+
+.s {
   background-image: url('images/tom3.png');
-  }
-  
-  .d {
+}
+
+.d {
   background-image: url('images/tom4.png');
-  }
-  
-  .j {
+}
+
+.j {
   background-image: url('images/snare.png');
-  }
-  
-  .k {
+}
+
+.k {
   background-image: url('images/crash.png');
-  }
-  
-  .l {
+}
+
+.l {
   background-image: url('images/kick.png');
-  }
+}
 
 
-  .pressed {
-    box-shadow: 0 3px 4px 0 #DBEDF3;
-    opacity: 0.5;
-  }
-  
-  .red {
-    color: red;
-  }
-  /* button styling */
-  .drum {
-    outline: none;
-    font-size: 5rem;
-    border-color: #233d84;
-    box-shadow: 0 0 30px #2f4ea3;
-    font-family: 'Arvo', cursive;
-    line-height: 5;
-    font-weight: 900;
-    color: #DA0463;
-    text-shadow: 3px 0 #DBEDF3;
-    border-radius: 15px;
-    display: inline-block;
-    width: 150px;
-    height: 150px;
-    text-align: center;
-    margin: 10px;
-    background-color: #fff;
-  }
-  
-  .btn{
-      background-color:#DA0463;
-      color:white;
-      font-weight: 500;
-      font-family: 'Arvo',cursive;
-      border-radius: 5px;
-      padding:5px;
-      border: none;
-      box-shadow: 0 0 10px #2f4ea3;
-      font-size: 1em;
-      margin-top: 10px;
-  }
+.pressed {
+  transform: scale(1.2);
+  border-width: 3px !important;
+  border-color: #DA0463 !important;
+  box-shadow: 0 0 2rem #DA0463 !important;
+}
+
+.red {
+  color: red;
+}
+
+/* button styling */
+.drum {
+  outline: none;
+  font-size: 5rem;
+  border-color: #233d84;
+  box-shadow: 0 0 30px #530e81;
+  font-family: 'Arvo', cursive;
+  line-height: 5;
+  font-weight: 900;
+  color: #DA0463;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: #fff;
+}
+
+.btn {
+  background-color: #DA0463;
+  color: white;
+  font-weight: 500;
+  font-family: 'Arvo', cursive;
+  border-radius: 5px;
+  padding: 5px;
+  border: none;
+  box-shadow: 0 0 10px #530e81;
+  font-size: 1em;
+  margin-top: 10px;
+}

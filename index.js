@@ -1,5 +1,7 @@
 var numberOfDrumButtons=document.querySelectorAll(".drum").length;
 let sequence=[];
+
+
 // when we click on drums
 for(var i=0;i<numberOfDrumButtons;i++)
 {
@@ -11,9 +13,9 @@ for(var i=0;i<numberOfDrumButtons;i++)
     var seq="";
     for(let j=0;j<sequence.length;j++)
     {
-        seq=seq+" "+sequence[j];
+        seq=seq+"  "+String(sequence[j]).toUpperCase();
     }
-    document.getElementById("sequence").innerHTML=seq;
+    document.getElementById("sequence").innerHTML=seq+" |";
   });
 }
 
@@ -25,9 +27,9 @@ document.addEventListener("keypress",function(event){
   var seq="";
   for(let j=0;j<sequence.length;j++)
   {
-    seq=seq+" "+sequence[j];
+    seq=seq+"  "+String(sequence[j]).toUpperCase();
   }
-  document.getElementById("sequence").innerHTML=seq;
+  document.getElementById("sequence").innerHTML=seq+" |";
 });
 
 
@@ -77,16 +79,22 @@ function buttonAnimation(currentKey)
   },100);
 }
 
-function playSequence(){
-    for(let i=0;i<sequence.length;i++)
-    {        
-        makeSound(sequence[i]);
-        buttonAnimation(sequence[i]);
-    }
+const sleep = (time) => {
+  return new Promise((resolve) => setTimeout(resolve, time))
+}
+
+const playSequence = async () => {
+  for (let i = 0; i < sequence.length; i++) {
+    await sleep(500)
+    makeSound(sequence[i]);
+    buttonAnimation(sequence[i]);
+  }
 }
 
 function clearsequence(){
     sequence=[];
     console.log(sequence);
-    document.getElementById("sequence").innerHTML="...........";   
+    document.getElementById("sequence").innerHTML="|";   
 }
+
+

@@ -1,34 +1,45 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
+
+<head>
+  
     <meta charset="utf-8">
     <title>Drum-Kit🥁</title>
+
+    <!-- custom css -->
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
-  </head>
+    
+    <!-- goggle font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap" rel="stylesheet">
 
-  <body >
+</head>
 
-    <h1 id="title"  >Drum Kit</h1>
-    <!-- <p>Enjoy the drum beats with a click or keypress</p> -->
-    <p id="sequence">...........</p>
-    <button class="btn" onclick="playSequence()">Play sequence</button>
-    <button class="btn" onclick="clearsequence()">clear</button>
-    <div class="set">
-      <button class="w drum">w</button>
-      <button class="a drum">a</button>
-      <button class="s drum">s</button>
-      <button class="d drum">d</button>
-      <button class="j drum">j</button>
-      <button class="k drum">k</button>
-      <button class="l drum">l</button>
-    </div>
+<body onload="start()">
 
-    <script src="index.js" charset="utf-8"></script>
-  </body>
+  <h1 id="title">Drum Kit</h1>
+  <!-- <p>Enjoy the drum beats with a click or keypress</p> -->
+  <p id="sequence">|</p>
 
-  <footer>
-    Made with ❤️ in mysore.
-  </footer>
+  <button class="btn" onclick="playSequence()">Play sequence</button>
+  <button class="btn" onclick="clearsequence()">clear</button>
+  
+  <div class="set">
+    <button class="w drum">w</button>
+    <button class="a drum">a</button>
+    <button class="s drum">s</button>
+    <button class="d drum">d</button>
+    <button class="j drum">j</button>
+    <button class="k drum">k</button>
+    <button class="l drum">l</button>
+  </div>
+
+  <script src="index.js" charset="utf-8"></script>
+
+</body>
+
+<footer>
+  Made with ❤️ in mysore.
+</footer>
 
 </html>
