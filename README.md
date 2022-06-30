@@ -14,6 +14,8 @@ The project's goal is to understand how to use sounds on key presses and mouse c
 
 ## Website Link
 <a href="https://chebrolutejaswi.github.io/Drum-Kit/">Click here</a> to rock!
+## Interface
+![image](https://user-images.githubusercontent.com/68593617/176739541-08d24381-c4cd-4b01-82b9-34d47526c82d.png)
 
 ## How to run 
 <li>Download the code.
